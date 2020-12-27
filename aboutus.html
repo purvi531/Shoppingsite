@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Products</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link href="index.css" rel="stylesheet"  type="text/css"/>
+ <style>
+	.backimage {
+   background: url(back1.png) no-repeat;
+  opacity: 0.7;
+  width:100%;
+}
+.responsive {
+  max-width: 100%;
+  height: 100%;
+   opacity: 0.6;
+}
+.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.checked {
+  color: orange;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+ </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		</button>
+		<a class="navbar-brand" href="#">Lifestyle Store</a>
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      <li><a href="settings.html"><span class="glyphicon glyphicon-user"></span> Settings</a></li>
+       <li><a href="logout.html"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+    </ul>
+	</div>
+  </div>
+</nav><br><br>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-11">
+      <div class="backimage">
+	<h1 style="color:white;font-size:80px;text-align: center;">Welcome to the Best Productive Site in Country</h1>
+      </div><br>
+<p>This is another advantage buyers get whenever they shop online. In a bid to attract more customers to buy their products, sellers tend to give out more discount deals and coupon codes, which buyers can use to make purchases online. More bonuses are also available online when compared with offline stores and supermarkets. Well, this is very reasonable because there are more products of the same type online than the ones being available offline, so for a seller to get more purchases, he or she has to make more discount offers and bonuses available. You do not usually get much of this if you are shopping offline because many of the prices are fixed and they can be sometimes on the high side.</p>
+<br>
+<p>Online, you will see many products of different varieties to select from when compared to offline stores. On the e-commerce stores, for instance, so many product owners have their goods displayed online with different specifications, so one can select the particular product one wants.</p>
+<br>
+<p>Before making your purchase there is the option where you can read up the reviews given by other buyers that have used the product. Reviews go a long way in dictating the way a particular product works, and it can help you select which one fits best for the purpose you desire it to be used for. </p>
+<br><br>
+<h1>reviews:</h1>
+<br>
+			<div class="row text-center">
+   				 <div class="col-sm-3">
+				<div class="thumbnail">
+	       			 <img src="avatar.jpg" alt="Avatar" class="avatar">
+	        				<div class="caption">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<h2>Tom Kok</h2>
+						<h4>3 days ago</h4>
+					</div>
+				</div>
+    				</div>
+    				<div class="col-sm-3">
+				<div class="thumbnail">
+	        			<img src="avatar1.jpg" alt="Avatar" class="avatar">
+	        				<div class="caption">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<h2>Win Rool</h2>
+						<h4>5 days ago</h4>
+	       			 	</div>
+				</div>
+    				</div>
+    				<div class="col-sm-3">
+				<div class="thumbnail">
+	       			 <img src="avatar2.png" alt="Avatar" class="avatar">
+	        				<div class="caption">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<h2>Jui Chaul</h2>
+						<h4>10 days ago</h4>
+	        				</div>
+				</div>
+    				</div>
+				<div class="col-sm-3">
+				<div class="thumbnail">
+	       			 <img src="avatar3.png" alt="Avatar" class="avatar">
+	        				<div class="caption">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<h2>Jack Mins</h2>
+						<h4>13 days ago</h4>
+	        				</div>
+				</div>
+    				</div>
+    			</div>
+
+<p>4.1 average based on 254 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>&emsp;5 star </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>&emsp;4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>&emsp;3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>&emsp;2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>&emsp;1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+	
+	
+</div>
+    <div class="col-sm-1">
+     	<img src="aboutside.jpg" class="responsive">
+    </div>
+  </div>
+</div>
+
+<footer>
+<div class="container">
+<p align="center">Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+</div>
+</footer>
+</body>
+</html>
